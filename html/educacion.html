@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Cindi L. Martín">
+    <meta name="description" content="Educacion">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <img src="../images/logo.svg" alt="Logo Cindi Martin" title="Logo Cindi Martin" width="200" height="100" />
+      <h1>Hoja de Vida</h1>
+    </header>
+    <h2>Datos Personales</h2>
+    <p>
+      <ul>
+        <li><strong>Nombre: </strong>Cindi</li>
+        <li><strong>Apellido: </strong>Martín</li>
+        <li><strong>Fecha Nacimiento: </strong>01-03-1989</li>
+        <li><strong>Lugar Nacimiento: </strong>Roldán, Santa Fe, Argentina</li>
+      </ul>
+    </p>
+    <nav>
+      <p>
+        <a href="../index.html">Inicio</a> | <a href="../html/educacion.html">Educación</a> | <a href="../html/experiencia.html">Experiencia</a>
+      </p>
+    </nav>
+    <h2>Educación</h2>
+    <table border="1", cellpadding="10", cellspacing="0">
+      <thead>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Carrera</th>
+            <th>¿Culminó?</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2006</td>
+          <td>Colegio Immanuel Kant N° 2009</td>
+          <td>San Jeronimo Sud</td>
+          <td>Bachillerato en Ciencias Naturales</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Universidad Tecnológica Nacional (UTN)</td>
+          <td>Rosario</td>
+          <td>Ingeniería en Sistemas de Información</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2009</td>
+          <td>Universidad Tecnológica Nacional (UTN)</td>
+          <td>Rosario</td>
+          <td>Modelado de Sistemas Orientados a Objetos con Rational Software IBM</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>Plataforma Educativa ESET</td>
+          <td>Online</td>
+          <td>Certificación en el Uso Seguro de Medios Informáticos ESET</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Plataforma Educativa CodeAcademy</td>
+          <td>Online</td>
+          <td>SQL: Table Transformation</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Plataforma Educativa CodeAcademy</td>
+          <td>Online</td>
+          <td>SQL: Analyzing Business Metrics</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <form class="frmEstudios" method="post">
+      <h2>Agregar Estudios</h2>
+      <label for="ddlAnio"><strong>Año</strong></label>
+      <select name="ddlAnio">
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+      </select><br/><br/>
+      <label for="txtInstitucion"><strong>Institucion</strong></label>
+      <input type="text" name="txtInstitucion" placeholder="Ej: Colegio Sagrado Corazon" required><br/><br/>
+      <label for="txtLugar"><strong>Lugar</strong></label>
+      <input type="text" name="txtLugar" size="30" placeholder="Ej: Rosario" required><br/><br/>
+      <label for="txtCarrera"><strong>Carrera</strong></label>
+      <input type="text" name="txtCarrera" placeholder="Ej: Analista en Sistemas" required><br/><br/>
+      <label for="ddlCulmino"><strong>¿Culminó?</strong></label>
+      <select name="ddlCulmino">
+        <option>Si</option>
+        <option>No</option>
+      </select><br/><br/>
+      <input type="submit" name="btnEnviar" value="Enviar">
+    </form>
+    <footer>
+      <p>
+        Contacto: <a href="mailto:cindimartin23@hotmail.com">cindimartin23@hotmail.com</a> - (0341)-153123456 - Argentina
+      </p>
+    </footer>
+  </body>
+</html>
